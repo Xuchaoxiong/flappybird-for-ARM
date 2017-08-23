@@ -1,0 +1,11 @@
+--cpu Cortex-M4.fp
+".\lcddriver.o"
+".\startup.o"
+".\main.o"
+"E:\keil\libraries\driverlib\rvmdk\driverlib.lib"
+".\font.o"
+".\screen.o"
+--strict --scatter ".\LCD.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LCD.map" -o .\LCD.axf

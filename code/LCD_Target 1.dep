@@ -1,0 +1,56 @@
+Dependencies for Project 'LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\LCD_Matrix.h)(0x531958D6)()
+F (.\LCDDriver.c)(0x54B69A30)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -IE:\keil\libraries -c99-I E:\keil\ARM\RV31\INC-I E:\keil\ARM\CMSIS\Include-I E:\keil\ARM\Inc\TI\TM4C123-DTARGET_IS_BLIZZARD_RA1 -DTM4C123GH6PM-o .\lcddriver.o --omf_browse .\lcddriver.crf --depend .\lcddriver.d)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\study\ARM\Project\flappybird\LCDDriver.h)(0x54B69A30)
+I (E:\keil\libraries\inc\hw_memmap.h)(0x5441C4A1)
+I (E:\keil\libraries\inc\hw_types.h)(0x5441C4A1)
+I (E:\keil\libraries\driverlib\gpio.h)(0x5441C48C)
+I (E:\keil\libraries\driverlib\sysctl.h)(0x545454E4)
+I (E:\keil\libraries\driverlib\rom.h)(0x551D4410)
+I (E:\keil\libraries\driverlib\rom_map.h)(0x5441C48C)
+I (F:\study\ARM\Project\flappybird\LCD_Matrix.h)(0x531958D6)
+I (E:\keil\libraries\driverlib\ssi.h)(0x5441C48D)
+I (E:\keil\libraries\driverlib\pin_map.h)(0x5441C48C)
+I (E:\keil\libraries\inc\hw_ints.h)(0x5441C4A1)
+F (.\LCDDriver.h)(0x54B69A30)()
+F (.\Startup.s)(0x5556CE84)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\keil\ARM\RV31\INC-I E:\keil\ARM\CMSIS\Include-I E:\keil\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x5556D458)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -IE:\keil\libraries -c99-I E:\keil\ARM\RV31\INC-I E:\keil\ARM\CMSIS\Include-I E:\keil\ARM\Inc\TI\TM4C123-DTARGET_IS_BLIZZARD_RA1 -DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\keil\libraries\driverlib\adc.h)(0x5441C48C)
+I (E:\keil\libraries\driverlib\gpio.h)(0x5441C48C)
+I (E:\keil\libraries\driverlib\rom.h)(0x551D4410)
+I (E:\keil\libraries\driverlib\interrupt.h)(0x5441C48C)
+I (E:\keil\libraries\driverlib\sysctl.h)(0x545454E4)
+I (E:\keil\libraries\inc\hw_memmap.h)(0x5441C4A1)
+I (E:\keil\libraries\inc\hw_ints.h)(0x5441C4A1)
+I (F:\study\ARM\Project\flappybird\LCDDriver.h)(0x54B69A30)
+I (E:\keil\libraries\inc\hw_types.h)(0x5441C4A1)
+I (E:\keil\libraries\driverlib\rom_map.h)(0x5441C48C)
+I (E:\keil\libraries\inc\hw_gpio.h)(0x5441C4A1)
+I (E:\keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\time.h)(0x51C7B744)
+F (.\lcda.h)(0x545E461E)()
+F (E:\keil\libraries\driverlib\rvmdk\driverlib.lib)(0x5441C48D)()
+F (..\lcddriver\font.c)(0x55560CF6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -IE:\keil\libraries -c99-I E:\keil\ARM\RV31\INC-I E:\keil\ARM\CMSIS\Include-I E:\keil\ARM\Inc\TI\TM4C123-DTARGET_IS_BLIZZARD_RA1 -DTM4C123GH6PM-o .\font.o --omf_browse .\font.crf --depend .\font.d)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (..\lcddriver\font.h)(0x55560370)()
+F (..\lcddriver\screen.c)(0x5556D47B)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -IE:\keil\libraries -c99-I E:\keil\ARM\RV31\INC-I E:\keil\ARM\CMSIS\Include-I E:\keil\ARM\Inc\TI\TM4C123-DTARGET_IS_BLIZZARD_RA1 -DTM4C123GH6PM-o .\screen.o --omf_browse .\screen.crf --depend .\screen.d)
+I (F:\study\ARM\Project\lcddriver\screen.h)(0x5556D43C)
+I (E:\keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (F:\study\ARM\Project\lcddriver\LCDDriver.h)(0x5535F36E)
+I (E:\keil\libraries\inc\hw_memmap.h)(0x5441C4A1)
+I (E:\keil\libraries\inc\hw_types.h)(0x5441C4A1)
+I (E:\keil\libraries\driverlib\gpio.h)(0x5441C48C)
+I (E:\keil\libraries\driverlib\sysctl.h)(0x545454E4)
+I (E:\keil\libraries\driverlib\rom.h)(0x551D4410)
+I (E:\keil\libraries\driverlib\rom_map.h)(0x5441C48C)
+I (F:\study\ARM\Project\lcddriver\font.h)(0x55560370)
+I (E:\keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+F (..\lcddriver\screen.h)(0x5556D43C)()
